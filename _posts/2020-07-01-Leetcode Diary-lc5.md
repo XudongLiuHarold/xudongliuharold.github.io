@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Leetcode Diary-lc5 
+title: Leetcode Diary
 subtitle: 5. Longest Palindromic Substring
 date: 2020-07-01
 author: Xudong
