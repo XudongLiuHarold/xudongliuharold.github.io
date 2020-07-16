@@ -23,12 +23,18 @@ Y   I   R
 ```
 string convert(string s, int numRows);
 ```
+
+
 **Example 1:**
+
 ```
 Input: s = "PAYPALISHIRING", numRows = 3
 Output: "PAHNAPLSIIGYIR"
 ```
+
+
 **Example 2:**
+
 ```
 Input: s = "PAYPALISHIRING", numRows = 4
 Output: "PINALSIGYAHRPI"
@@ -39,6 +45,8 @@ A   L S  I G
 Y A   H R
 P     I
 ```
+
+
 #### Solution
 
 - “模拟”人解决这个问题的步骤解决这个问题
