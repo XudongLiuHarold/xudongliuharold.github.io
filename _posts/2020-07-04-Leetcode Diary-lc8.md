@@ -70,11 +70,37 @@ Explanation: The number "-91283472332" is out of the range of a 32-bit signed in
 
 #### Solution
 
-- 
+- 遍历字符串，向右移位时把当前结果*10：
+$$ res = res * 10 + x $$
+- 主要是要注意各种特殊情况：
+    - 前后有留空白：使用 `string.trim()`
+    - 首字母是正负号：判断`i == 0 && (s.charAt(i) == '-' || s.charAt(i) == '+')`
+    - 不属于`[0,9]`: `return false;`
+    - 溢出：返回`Integer.MIN_VALUE`或`Integer.MAX_VALUE`  
+
 
 #### Code(JAVA)
 
 ```java
+public int myAtoi(String str) {
+    str = str.trim();
+    long res = 0;
+    boolean positive = true;
+    for(int i = 0; i < str.length(); i++) {
+        char c = str.charAt(i);
+        if(c >= '0' && c <= '9') {
+            res = res*10 + (c - '0');
+        } 
+        else if (i == 0 && (c == '+' || c == '-')) {
+            positive = (c != '-');
+        }
+        else
+            break;
+        if(res > Integer.MAX_VALUE)
+            return positive ? Integer.MAX_VALUE :Integer.MIN_VALUE;
+    }
+    return positive ? (int) res : 0 - (int)res;
+}
 
 ```
 
