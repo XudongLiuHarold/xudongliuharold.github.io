@@ -2,7 +2,7 @@
 layout: post
 title: Leetcode Diary
 subtitle: 8. String to Integer (atoi)
-date: 2020-07-03
+date: 2020-07-04
 author: Xudong
 header-img: img/background.jpg
 tags: 
