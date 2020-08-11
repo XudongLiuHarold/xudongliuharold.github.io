@@ -15,7 +15,7 @@ tags:
 >Note: You may not slant the container and n is at least 2.
 
 
-![lc-11](img/lc-img/../../../../img/lc-img/lc_11.jpg)
+![lc-11](https://github.com/XudongLiuHarold/xudongliuharold.github.io/blob/master/img/lc-img/lc_11.jpg)
 
 
 **Example:**
