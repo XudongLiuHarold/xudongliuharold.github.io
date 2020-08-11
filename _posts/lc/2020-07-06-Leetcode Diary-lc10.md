@@ -6,6 +6,9 @@ date: 2020-07-06
 author: Xudong
 header-img: img/background.jpg
 tags: 
+ - hard
+ - recursion
+ - dynamic programming
 
 ---
 
@@ -81,11 +84,11 @@ dp[i][j]=
 \begin{cases}
 *=
 \begin{cases}
-dp[i][j+2] \quad || \quad dp[i+1][j] & \text{matched}\\
+dp[i][j+2] \ || \ dp[i+1][j] & \text{matched}\\
 dp[i][j+2] & \text{not matched}   
 \end{cases}
 \\
-!* = mached \quad \& \quad dp[i+1][j+1]
+!* = \ matched \ \& \ dp[i+1][j+1]
 \end{cases}
 $$
 
