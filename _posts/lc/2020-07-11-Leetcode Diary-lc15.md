@@ -31,11 +31,41 @@ A solution set is:
 
 #### Thoughts
 
-
+- 排序
+- 使用一个循环，将问题变成寻找`(a,b)`满足
+$$
+a + b = 0 -c 
+$$
+- 循环内部是一个sorted array的 `two sum` 问题，使用左右两个指针解决
+- ⚠️：可能出现重复的数字，需要在遍历的时候排除
 #### Code(JAVA)
 
 ```java
-
+public List<List<Integer>> threeSum(int[]nums) {
+    List<List<Integer>>res = new ArrayList();
+    Arrays.sort(nums);
+    for(int i = 0; i < nums.length - 2; i++) {
+        if(i > 0 && nums[i] == nums[i-1])
+            continue;
+        int l = i + 1, r = nums.length - 1;
+        while(l < r) {
+            if(nums[l] + nums[r] + nums[i] ==0) {
+                //remove duplicate elements
+                if(l == i +1 || nums[l] !=nums[l-1])
+                    res.add(newArrayList<Integer>(ArraysasList(nums[i],
+                                                               nums[l],
+                                                               nums[r])));
+                l ++;
+                r --;
+            }
+            else if(nums[l] + nums[r] + num[i] < 0)
+                l ++;
+            else
+                r --;
+        }
+    }
+    return res;
+}
 ```
 
 
