@@ -40,6 +40,8 @@ Explanation: The minimum number of jumps to reach the last index is 2.
   - 当`i <= nowJumpable`，表示当前仍然在不需要再跳跃能够到达的范围，所以不需要更新步数
   - 每次都更新`nextJumpable`，确保付出一步后能够到达最远的距离
 
+- 这个题目`greedy`的概念有点类似`lazy`的概念，不到实在不行的时候，绝对不多跳任何一步。一旦跳出一步，就要获得最大的收益(max distance).
+
 #### Code(JAVA)
 
 ```java
