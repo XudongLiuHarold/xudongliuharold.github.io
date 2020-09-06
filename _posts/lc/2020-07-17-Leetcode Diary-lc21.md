@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 21. Merge Two Sorted Lists
+subtitle: Leetcode Diary
+title: 21. Merge Two Sorted Lists
 date: 2020-07-17
 author: Xudong
 header-img: img/background.jpg

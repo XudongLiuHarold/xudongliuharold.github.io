@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary 
-subtitle: 2. Add Two Numbers
+subtitle: Leetcode Diary 
+title: 2. Add Two Numbers
 date: 2020-06-28
 author: Xudong
 header-img: img/background.jpg

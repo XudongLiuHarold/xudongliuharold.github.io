@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 6. ZigZag Conversion
+subtitle: Leetcode Diary
+title: 6. ZigZag Conversion
 date: 2020-07-02
 author: Xudong
 header-img: img/background.jpg

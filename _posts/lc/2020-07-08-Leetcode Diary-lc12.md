@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 12. Integer to Roman
+subtitle: Leetcode Diary
+title: 12. Integer to Roman
 date: 2020-07-08
 author: Xudong
 header-img: img/background.jpg

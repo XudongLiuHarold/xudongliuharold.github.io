@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 46.47. Permutations(I II)
+subtitle: Leetcode Diary
+title: 46.47. Permutations(I II)
 date: 2020-09-03
 author: Xudong
 header-img: img/background.jpg

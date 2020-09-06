@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary 
-subtitle: 4. Median of Two Sorted Arrays
+subtitle: Leetcode Diary 
+title: 4. Median of Two Sorted Arrays
 date: 2020-06-29
 author: Xudong
 header-img: img/background.jpg

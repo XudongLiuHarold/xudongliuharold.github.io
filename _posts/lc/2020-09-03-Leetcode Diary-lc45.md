@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 45. Jump Game II
+subtitle: Leetcode Diary
+title: 45. Jump Game II
 date: 2020-09-03
 author: Xudong
 header-img: img/background.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 14. Longest Common Prefix
+subtitle: Leetcode Diary
+title: 14. Longest Common Prefix
 date: 2020-07-10
 author: Xudong
 header-img: img/background.jpg

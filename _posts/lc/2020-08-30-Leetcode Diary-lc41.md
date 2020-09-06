@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 41. First Missing Positive
+subtitle: Leetcode Diary
+title: 41. First Missing Positive
 date: 2020-08-30
 author: Xudong
 header-img: img/background.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 9. Palindrome Number
+subtitle: Leetcode Diary
+title: 9. Palindrome Number
 date: 2020-07-05
 author: Xudong
 header-img: img/background.jpg

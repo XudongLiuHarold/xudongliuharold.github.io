@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 15. 3Sum
+subtitle: Leetcode Diary
+title: 15. 3Sum
 date: 2020-07-11
 author: Xudong
 header-img: img/background.jpg

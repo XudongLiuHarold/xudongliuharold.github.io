@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 48. Rotate Image
+subtitle: Leetcode Diary
+title: 48. Rotate Image
 date: 2020-09-04
 author: Xudong
 header-img: img/background.jpg

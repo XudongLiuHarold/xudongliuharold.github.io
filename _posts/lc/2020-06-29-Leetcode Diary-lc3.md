@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary 
-subtitle: 3. Longest Substring Without Repeating Characters
+subtitle: Leetcode Diary 
+title: 3. Longest Substring Without Repeating Characters
 date: 2020-06-29
 author: Xudong
 header-img: img/background.jpg

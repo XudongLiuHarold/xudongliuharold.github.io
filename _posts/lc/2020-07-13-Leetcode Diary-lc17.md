@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 17. Letter Combinations of a Phone Number
+subtitle: Leetcode Diary
+title: 17. Letter Combinations of a Phone Number
 date: 2020-07-13
 author: Xudong
 header-img: img/background.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 44. Wildcard Matching
+subtitle: Leetcode Diary
+title: 44. Wildcard Matching
 date: 2020-09-03
 author: Xudong
 header-img: img/background.jpg

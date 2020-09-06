@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 19. Remove Nth Node From End of List
+subtitle: Leetcode Diary
+title: 19. Remove Nth Node From End of List
 date: 2020-07-15
 author: Xudong
 header-img: img/background.jpg

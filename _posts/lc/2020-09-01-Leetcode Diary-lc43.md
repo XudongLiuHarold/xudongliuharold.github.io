@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 43. Multiply Strings
+subtitle: Leetcode Diary
+title: 43. Multiply Strings
 date: 2020-09-01
 author: Xudong
 header-img: img/background.jpg

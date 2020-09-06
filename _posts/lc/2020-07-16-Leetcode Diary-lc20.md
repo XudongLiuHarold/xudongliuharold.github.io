@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 20. Valid Parentheses
+subtitle: Leetcode Diary
+title: 20. Valid Parentheses
 date: 2020-07-16
 author: Xudong
 header-img: img/background.jpg

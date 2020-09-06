@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 11. Container With Most Water
+subtitle: Leetcode Diary
+title: 11. Container With Most Water
 date: 2020-07-07
 author: Xudong
 header-img: img/background.jpg

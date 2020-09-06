@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 10. Regular Expression Matching
+subtitle: Leetcode Diary
+title: 10. Regular Expression Matching
 date: 2020-07-06
 author: Xudong
 header-img: img/background.jpg

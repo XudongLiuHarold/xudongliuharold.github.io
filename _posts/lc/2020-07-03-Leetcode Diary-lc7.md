@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 7. Reverse Integer
+subtitle: Leetcode Diary
+title: 7. Reverse Integer
 date: 2020-07-03
 author: Xudong
 header-img: img/background.jpg

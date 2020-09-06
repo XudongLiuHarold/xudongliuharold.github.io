@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 16. 3Sum Closest
+subtitle: Leetcode Diary
+title: 16. 3Sum Closest
 date: 2020-07-12
 author: Xudong
 header-img: img/background.jpg
