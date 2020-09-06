@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 50. Pow(x, n)
+title: 50. Pow(x, n)
+subtitle: Leetcode Diary
 date: 2020-09-05
 author: Xudong
 header-img: img/background.jpg

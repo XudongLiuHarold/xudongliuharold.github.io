@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 42. Trapping Rain Water
-subtitle:
+subtitle: Leetcode Diary
 date: 2020-08-31
 author: Xudong
-header-img: img/lc-bg.jpg
+header-img: img/background.jpg
 tags: 
     - hard 
     - two pointer

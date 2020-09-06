@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Leetcode Diary
-subtitle: 49. Group Anagrams
+title: 49. Group Anagrams
+subtitle: Leetcode Diary
 date: 2020-09-04
 author: Xudong
 header-img: img/background.jpg
