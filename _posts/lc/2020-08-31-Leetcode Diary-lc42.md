@@ -7,7 +7,7 @@ author: Xudong
 header-img: img/background.jpg
 tags: 
     - hard 
-    - two pointer
+    - two pointers
 ---
 
 >Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
