@@ -6,7 +6,6 @@ date: 2020-04-21
 author: Xudong
 header-img: img/background.jpg
 tags: 
-    - leetcode
     - hashmap
     - easy
 ---

@@ -6,7 +6,6 @@ date: 2020-06-28
 author: Xudong
 header-img: img/background.jpg
 tags: 
-    - leetcode
     - linked list
     - medium
 ---

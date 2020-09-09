@@ -6,7 +6,6 @@ date: 2020-06-29
 author: Xudong
 header-img: img/background.jpg
 tags: 
-    - leetcode
     - binary search
     - math
     - hard

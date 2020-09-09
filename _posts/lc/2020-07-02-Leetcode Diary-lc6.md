@@ -6,7 +6,6 @@ date: 2020-07-02
 author: Xudong
 header-img: img/background.jpg
 tags: 
-    - leetcode
     - medium
     - string
 ---
