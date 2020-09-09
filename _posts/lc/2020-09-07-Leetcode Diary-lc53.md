@@ -2,7 +2,7 @@
 layout: post
 title: 53. Maximum Subarray
 subtitle: Leetcode Diary
-date: 2020-09-06
+date: 2020-09-07
 author: Xudong
 header-img: img/background.jpg
 tags: 

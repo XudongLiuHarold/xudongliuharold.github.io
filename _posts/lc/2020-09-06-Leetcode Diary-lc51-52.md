@@ -2,7 +2,7 @@
 layout: post
 title: 51.52. N-Queens(I II)
 subtitle: Leetcode Diary
-date: 2020-09-05
+date: 2020-09-06
 author: Xudong
 header-img: img/background.jpg
 tags: 

@@ -2,7 +2,7 @@
 layout: post
 title: 54. Spiral Matrix
 subtitle: Leetcode Diary
-date: 2020-09-06
+date: 2020-09-08
 author: Xudong
 header-img: img/background.jpg
 tags: 
