@@ -34,7 +34,7 @@ Output: []
 
 #### Thoughts
 
-- 可以看成是[LC21](2020-07-17-Leetcode%20Diary-lc21.md)的进阶版
+- 可以看成是[LC21](https://xudongliuharold.github.io/2020/07/17/Leetcode-Diary-lc21/)的进阶版
 - 把`merge n` 分解成 `merge two`,然后解决即可
 - 按照divide and conquer的思想，分成一对一对的list分别merge，然后再把merge 后的list重新分成一对一对的，继续merge，直到全部merge成一个list为止
 

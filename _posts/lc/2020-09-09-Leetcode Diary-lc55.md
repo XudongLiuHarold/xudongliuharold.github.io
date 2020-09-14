@@ -36,7 +36,7 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
 
 
 #### Thoughts
-- 类似[LC45](2020-09-03-Leetcode%20Diary-lc45.md)，但更简单
+- 类似[LC45](https://xudongliuharold.github.io/2020/09/03/Leetcode-Diary-lc45/)，但更简单
 - 使用`jumpable`来表示当前可以跳到的最远距离
 - 如果`i > jumpable` 证明跳不到`i`，`return false`
 - 如果`n-1 <= jumpable` 证明已经可以跳到最后， `return true`
