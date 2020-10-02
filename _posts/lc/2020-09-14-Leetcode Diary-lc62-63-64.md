@@ -27,6 +27,11 @@ Constraints:
 
 - Now consider if some obstacles are added to the grids. How many unique paths would there be?
 
+
+## 64
+
+- Now consider every elements has numbers as weight, find the minimum sum path.
+
 **Example**
 
 ```bash
@@ -56,6 +61,15 @@ There is one obstacle in the middle of the 3x3 grid above.
 There are two ways to reach the bottom-right corner:
 1. Right -> Right -> Down -> Down
 2. Down -> Down -> Right -> Right
+
+Input:
+[
+  [1,3,1],
+  [1,5,1],
+  [4,2,1]
+]
+Output: 7
+Explanation: Because the path 1→3→1→1→1 minimizes the sum.
 ```
 
 #### Thoughts
@@ -66,6 +80,10 @@ dp[x][y] = dp[x-1][y] + dp[x][y-1]
 $$
 - init boundary 之后dp求解即可
 - 对于加入了`obstacles`之后的问题，思路是一样的，只是是`obstacle`的点的路径会变成0.
+- 对于加入了`weights`之后的问题，思路大体上是相似的，动态规划方程将变成：
+$$
+dp[x][y] = Math.min(dp[x-1][y],dp[x][y-1]) + weight[x][y]
+$$
 
 #### Code(JAVA)
 
@@ -114,6 +132,28 @@ public int uniquePathsWithObstacles(int[][] obstacleGrid{
         }
     }
     return dp[m-1][n-1];
+}
+
+//64
+public int minPathSum(int[][] grid) {
+    int m = grid.length;
+    if(m == 0)
+        return 0;
+    int n = grid[0].length;
+    //init boundary 
+    for(int i = 1; i < n; i++){
+        grid[0][i] += grid[0][i-1];
+    }
+    for(int i = 1; i < m; i++){
+        grid[i][0] += grid[i-1][0];
+    }
+    //dp
+    for(int i = 1; i < m; i++) {
+        for(int j = 1; j < n; j++) {
+            grid[i][j] = Math.min(grid[i-1][j],grid[i][j-1]) + grid[i][j];
+        }
+    }
+    return grid[m-1][n-1];
 }
 ```
 
