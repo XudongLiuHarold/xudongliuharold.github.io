@@ -2,7 +2,7 @@
 layout: post
 title: 66. Plus One
 subtitle: Leetcode Diary
-date: 2020-09-15
+date: 2020-09-16
 author: Xudong
 header-img: img/background.jpg
 tags: 

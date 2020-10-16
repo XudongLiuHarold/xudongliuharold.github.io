@@ -2,7 +2,7 @@
 layout: post
 title: 69. Sqrt(x)
 subtitle: Leetcode Diary
-date: 2020-09-13
+date: 2020-09-19
 author: Xudong
 header-img: img/background.jpg
 tags: 

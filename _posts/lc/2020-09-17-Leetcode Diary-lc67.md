@@ -2,7 +2,7 @@
 layout: post
 title: 67. Add Binary
 subtitle: Leetcode Diary
-date: 2020-09-13
+date: 2020-09-17
 author: Xudong
 header-img: img/background.jpg
 tags: 
