@@ -17,14 +17,14 @@ tags:
 - Dynamic Programming 
 - `dp[i][j]`表示word1的第i个字符和word2的第j个字符适配的edit distance是多少
 - 则有动态规划方程:
+
 $$
-
- dp[i][j] = \begin{cases}
- Math.min(dp[i-1][j-1]+1,dp[i-1][j]+1,dp[i][j-1]+1)  & \text{word1[i] != word2[j]}
- \\
- Math.min(dp[i-1][j-1],dp[i-1][j]+1,dp[i][j-1]+1)  & \text{word1[i] == word2[j]}
- \end{cases}
-
+dp[i][j] = 
+\begin{cases}
+Math.min(dp[i-1][j-1]+1,dp[i-1][j]+1,dp[i][j-1]+1)  & \text{word1[i] != word2[j]}
+\\
+Math.min(dp[i-1][j-1],dp[i-1][j]+1,dp[i][j-1]+1)  & \text{word1[i] == word2[j]}
+\end{cases}
 $$
 
 ```java
