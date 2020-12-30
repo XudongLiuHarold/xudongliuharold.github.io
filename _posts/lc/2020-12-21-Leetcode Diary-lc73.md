@@ -2,7 +2,7 @@
 layout: post
 title: 73. Set Matrix Zeroes
 subtitle: Leetcode Diary
-date: 2020-12-20
+date: 2020-12-21
 author: Xudong
 header-img: img/background.jpg
 tags: 
